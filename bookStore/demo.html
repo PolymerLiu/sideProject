@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="root" class="container">
+    <div class="m-artical-action">
+        <div class="arical-action-mid" id="action_mid"></div>
+    </div>
+    <div id="top_nav" class="top-nav" style="display: none;">
+        <div class="icon-back"></div>
+        <div class="nav-title">返回书架</div>
+    </div>
+    <div id="fiction_chapter_title"></div>
+    <div id="fiction_container" class="m-read-content">
+
+    </div>
+    <div class="m-button-bar">
+        <ul class="u-tab">
+            <li id="prev_button">上一章</li>
+            <li id="next_button">下一章</li>
+        </ul>
+    </div>
+    <div id="bottom_nav" class="bottom-nav" style="display: none;">
+        <ul class="flexSC">
+            <li id="category">
+                <i class="list"></i>
+                <h6>目录</h6>
+            </li>
+            <li id="font">
+                <i class="old"></i>
+                <h6>字体</h6>
+            </li>
+            <li id="time">
+                <i class="day"></i>
+                <h6>白天</h6>
+            </li>
+        </ul>
+    </div>
+    <div id="bottom_nav_panel" class="nav-panel bottom-nav" style="display: none;">
+        <div class="font flexSC">
+            <span>字号</span>
+            <ul class="flexSC">
+                <li id="large">大</li>
+                <li id="small">小</li>
+            </ul>
+        </div>
+        <div class="background flexSC">
+            <span>背景</span>
+            <ul class="flexSC">
+                <li style="margin-left: 30px;background:#f7eee5;"></li>
+                <li style="background:#e9dfc8;"></li>
+                <li style="background:#a4a4a4;"></li>
+                <li style="background:#cdefce;"></li>
+                <li style="background:#283548;"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="lib/jquery-3.0.0.js"></script>
+<!--<script>window.jQuery = $;</script>-->
+<script src="js/jquery.base64.js"></script>
+<script src="js/jquery.jsonp.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
